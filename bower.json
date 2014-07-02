@@ -1,0 +1,26 @@
+{
+  "name": "mop-mysqldatetime",
+  "version": "0.0.1",
+  "authors": [
+    "Andreas Streichardt <andreas.streichardt@gmail.com>"
+  ],
+  "description": "Helpers which convert from JS-Date to mysql Datetime and vice-versa.",
+  "main": "mop-mysqldatetime.js",
+  "keywords": [
+    "mysql",
+    "datetime",
+    "date",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.19"
+  }
+}

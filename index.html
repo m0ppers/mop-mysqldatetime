@@ -1,0 +1,14 @@
+<html>
+<head>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="mop-mysqldatetime.js"></script>
+<script type="text/javascript">
+function TestController() {
+}
+</script>
+</head>
+<body ng-app="mopMysqlDateTime" ng-controller="TestController">
+{{"2012-20-09 08:00:00"|mysqlDate2Date|date:"short"}}
+{{"2012-20-09"|mysqlDate2Date|date:"short"}}
+</body>
+</html>
